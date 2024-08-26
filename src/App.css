@@ -1,38 +1,238 @@
-.App {
-  text-align: center;
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+.first ul li{
+    padding: 20px;
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 10px;
+}
+.headerset{
+    display: flex;
+   padding: 10px;
+   justify-content: space-between;
+    background-color: rgba(165, 162, 162, 0.6);
+}
+input{
+    height:20px;
+    width: 270px;
+}
+.first{
+    flex:4;
+}
+.search {
+    flex:4;
+    padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.last{
+    flex:2;
+    padding: 20px;
+    padding-left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bansection{
+    margin: 5px;
+    display: flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.imgban{
+width: 100%;
+height: 350px;
 }
-
-.App-link {
-  color: #61dafb;
+.imgban1{
+    width: 100%;
+    height: 350px;
 }
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.menimg{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    width:300px;
+    height: 100%;
+    margin: 25px;
+}
+.menimg1{
+
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.menimg2{
+
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.menimg3{
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.menimg4{
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.collimg{
+    align-items: center;
+    display: flex;
+
+}
+.men1:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+.men2:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+.men3:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+.men4:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+.men5:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+.childimg{
+
+    width:300px;
+    height: 100%;
+    margin: 25px;
+}
+.childimg1{
+
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.childimg2{
+
+    margin: 15px;
+    width: 300px;
+    height: 100%;
+}
+.childimg3{
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.childimg4{
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.childimg5{
+    margin:25px;
+    width: 300px;
+    height: 100%;
+}
+.womimg{
+
+    width:300px;
+    height: 100%;
+    margin: 25px;
+}
+.womimg1{
+
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.womimg2{
+
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.womimg3{
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.womimg4{
+    margin: 25px;
+    width: 300px;
+    height: 100%;
+}
+.womimg5{
+    margin:25px;
+    width: 300px;
+    height: 100%;
+}
+.wom1:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+.wom2:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+.wom3:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+.wom4:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+.wom5:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+.wom6:hover{
+    padding: 10px;
+    background-color: rgba(187, 180, 180, 0.5);
+}
+h1{
+    background-color: rgba(165, 162, 162, 0.6);
+    text-align: center;
+}
+.parent{
+    align-items: center;
+    display: flex;
+}
+.last li{
+    list-style: none;
+    display: inline-flex;
+    padding: 5px;
+}
+.insta{
+    height: 20px;
+    width: 20px;
+    text-decoration-line: none;
+}
+.loc{
+    height: 20px;
+    width: 20px;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+   background-color:rgba(165, 162, 162, 0.6);
+}
+.firstfooter{
+   flex: 1;
+}
+.secondfooter{
+   flex: 2;
+}
+.thirdfooter{
+    flex: 3;
+}
+.thirdfooter li{
+list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
 }
